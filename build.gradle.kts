@@ -21,7 +21,7 @@ application {
     applicationDefaultJvmArgs = listOf("-Dio.ktor.development=$isDevelopment")
 }
 
-// Needed for Heroku
+// Ova mora za Heroku
 tasks.create("stage") {
     dependsOn("installDist")
 }
