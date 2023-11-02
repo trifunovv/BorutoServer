@@ -22,7 +22,7 @@ application {
 }
 
 
-// Ova mora za Heroku new
+// Ova mora za Heroku
 tasks.create("stage") {
     dependsOn("installDist")
 }
