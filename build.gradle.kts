@@ -23,8 +23,8 @@ application {
 
 
 // Ova mora za Heroku
-tasks.create("stage") {
-    dependsOn("installDist")
+tasks {
+    create("stage").dependsOn("installDist")
 }
 
 repositories {
